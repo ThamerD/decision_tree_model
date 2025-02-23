@@ -169,12 +169,6 @@ results_df
 
 # %%
 results_df[["mean_train_score", "mean_cv_score"]].plot()
-
-# %% [markdown]
-# <!-- END QUESTION -->
-# 
-# <br><br>
-
 # %% [markdown]
 # We can see that the `mean_cv_score` peaks at depth 5 then begins to decrease. Whereas the `mean_train_score` continuously increases. We can conclude that depth 5 is the ideal depth for our model in this use case. This is what we call "The sweet spot".
 
