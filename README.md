@@ -735,19 +735,12 @@ results_df[["mean_train_score", "mean_cv_score"]].plot()
 
 
 
-    <Axes: xlabel='depth'>
 
 
 
 
     
 ![png](decision_trees_files/decision_trees_29_1.png)
-    
-
-
-<!-- END QUESTION -->
-
-<br><br>
 
 We can see that the `mean_cv_score` peaks at depth 5 then begins to decrease. Whereas the `mean_train_score` continuously increases. We can conclude that depth 5 is the ideal depth for our model in this use case. This is what we call "The sweet spot".
 
